@@ -3,6 +3,7 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="AntDesign" Version="0.12.4" />
     <PackageReference Include="Excubo.Blazor.Grids" Version="3.0.23" />
     <PackageReference Include="MatBlazor" Version="2.8.0" />
     <PackageReference Include="Material.Blazor" Version="3.0.1" />

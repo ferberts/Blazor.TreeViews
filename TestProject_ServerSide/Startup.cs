@@ -26,6 +26,7 @@ namespace TestProject_ServerSide
             _ = services.AddRazorPages();
             _ = services.AddServerSideBlazor();
             _ = services.AddMBServices();
+            _ = services.AddAntDesign();
             _ = services.AddScoped((s) =>
             {
                 var uriHelper = s.GetRequiredService<NavigationManager>();
